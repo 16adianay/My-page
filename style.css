@@ -1,0 +1,65 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: Merriweather-Regular;
+    src: url("Merriweather-Regular.ttf");
+}
+body {
+    font-family: "OpenSans-Regular", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+    font-size: 16pt;
+    flex: 0;
+}
+.header__link {
+    margin: 0 10px;
+    color: palevioletred;
+    transition: color .2s;
+}
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 50px;
+}
+.aside {
+    width: 300px;
+    flex: 0;
+}
+.image {
+    border: 1px solid gray;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+}
+.contact__img {
+    margin-right: 8px;
+}
+.section {
+    flex-grow: 1;
+    margin-left: 50px;
+}
+.title {
+    font-family: "Merriweather-Regular", serif;
+}
+.subtitle {
+    font-family:"Merriweather-Regular", serif;
+    border-left: 5px solid palevioletred;
+    padding-left: 5px;
+    margin-top: 30px;
+}
+footer {
+    color: gray;
+    text-align: center;
+}
